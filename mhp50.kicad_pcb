@@ -41,7 +41,7 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(grid_origin 25.99 153.98)
+		(grid_origin 25.99 25.98)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -411,6 +411,58 @@
 			(remove_unused_layers no)
 			(uuid "c312363a-c235-4d5a-90c8-aeffb36dbf39")
 		)
+	)
+	(gr_poly
+		(pts
+			(xy 62.6 62.1) (xy 117.4 62.1) (xy 117.4 117.5) (xy 62.6 117.5)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "167fa8cc-dcba-443e-96bd-d64660a52b4f")
+	)
+	(gr_line
+		(start 9.3 62.1)
+		(end 169.3 62.1)
+		(stroke
+			(width 2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b74c0b3-7d57-4e87-8f6b-a49005bdc604")
+	)
+	(gr_line
+		(start 62.1 10.1)
+		(end 62.1 160.1)
+		(stroke
+			(width 2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "acf35a4d-29c0-4562-afe4-001359dcb37b")
+	)
+	(gr_line
+		(start 117.9 10.1)
+		(end 117.9 160.1)
+		(stroke
+			(width 2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c04c0b28-a78a-4a39-9fba-546832042b92")
+	)
+	(gr_line
+		(start 9.3 117.9)
+		(end 169.3 117.9)
+		(stroke
+			(width 2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce8110b0-fa20-4202-a193-0836d0d4a67a")
 	)
 	(gr_line
 		(start 25 160)
